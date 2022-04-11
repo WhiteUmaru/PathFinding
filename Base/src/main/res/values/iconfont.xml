@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--图标文字-->
+    <string name="icon_more" translatable="false">&#xe638;</string>
+    <string name="icon_input" translatable="false">&#xe60d;</string>
+    <string name="icon_emoji" translatable="false">&#xe60c;</string>
+    <string name="icon_microphone" translatable="false">&#xe607;</string>
+    <string name="icon_add" translatable="false">&#xe606;</string>
+    <!-- 减 -->
+    <string name="icon_minus" translatable="false">&#xe74b;</string>
+
+    <string name="icon_phone" translatable="false">&#xe608;</string>
+    <string name="icon_file" translatable="false">&#xe609;</string>
+    <string name="icon_album" translatable="false">&#xe60a;</string>
+    <string name="icon_camera" translatable="false">&#xe60b;</string>
+    <string name="icon_switch" translatable="false">&#xe6d7;</string>
+    <string name="icon_menu" translatable="false">&#xe60e;</string>
+    <string name="icon_go_back" translatable="false">&#xe884;</string>
+
+    <!--向下-->
+    <string name="icon_down" translatable="false">&#xe652;</string>
+    <string name="icon_up" translatable="false">&#xe653;</string>
+    <!-- 搜索 -->
+    <string name="icon_search" translatable="false">&#xe616;</string>
+
+    <!--消息-->
+    <string name="icon_message" translatable="false">&#xe622;</string>
+    <!--我的-->
+    <string name="icon_mine" translatable="false">&#xe602;</string>
+    <!--联系人-->
+    <string name="icon_contact" translatable="false">&#xe697;</string>
+    <!--任务-->
+    <string name="icon_task" translatable="false">&#xe65c;</string>
+
+    <!--加 无外圈-->
+    <string name="icon_add_no_ring" translatable="false">&#xe65a;</string>
+
+    <!--播放按钮-->
+    <string name="icon_video_play" translatable="false">&#xe605;</string>
+
+    <!-- 扫一扫 -->
+    <string name="icon_scan_qr" translatable="false">&#xe8b5;</string>
+
+    <!-- 播放按钮 -->
+    <string name="icon_video_play_black" translatable="false">&#xe64a;</string>
+
+    <!-- 点赞 -->
+    <string name="icon_like" translatable="false">&#xe672;</string>
+
+    <!-- 评论 -->
+    <string name="icon_comment" translatable="false">&#xe7d3;</string>
+
+    <!-- 分享 -->
+    <string name="icon_share" translatable="false">&#xe603;</string>
+
+    <!-- 通知 -->
+    <string name="icon_notify" translatable="false">&#xe611;</string>
+
+    <!-- 喇叭 -->
+    <string name="icon_speaker" translatable="false">&#xe601;</string>
+    <!-- 静音 -->
+    <string name="icon_mute" translatable="false">&#xe752;</string>
+    <!-- 定位 -->
+    <string name="icon_location" translatable="false">&#xe6e0;</string>
+    <!-- 地标 -->
+    <string name="icon_landmark" translatable="false">&#xe614;</string>
+    <!-- 删除 -->
+    <string name="icon_delete" translatable="false">&#xe615;</string>
+    <!-- 发现 -->
+    <string name="icon_discovery" translatable="false">&#xe618;</string>
+    <!-- 筛选 -->
+    <string name="icon_filter" translatable="false">&#xe659;</string>
+    <!-- 对勾 -->
+    <string name="icon_select" translatable="false">&#xe648;</string>
+    <!-- 免打扰 -->
+    <string name="icon_disturb" translatable="false">&#xe6ba;</string>
+    <!-- 同步 -->
+    <string name="icon_sync" translatable="false">&#xe6fb;</string>
+    <!-- 双左箭头 -->
+    <string name="icon_left_arrow" translatable="false">&#xe62a;</string>
+    <!-- 关闭 -->
+    <string name="icon_close" translatable="false">&#xe600;</string>
+    <!-- 刷新 -->
+    <string name="icon_refresh" translatable="false">&#xe6be;</string>
+    <!-- 排序 -->
+    <string name="icon_sort" translatable="false">&#xe6cf;</string>
+    <!-- 方向 -->
+    <string name="icon_direction" translatable="false">&#xe632;</string>
+    <!-- 方向 -->
+    <string name="icon_direction_right" translatable="false">&#xe619;</string>
+    <!-- 方向 -->
+    <string name="icon_direction_up" translatable="false">&#xe61b;</string>
+    <!-- 方向 -->
+    <string name="icon_direction_down" translatable="false">&#xe61c;</string>
+    <!-- 方向 -->
+    <string name="icon_direction_left" translatable="false">&#xe61d;</string>
+
+    <!-- 视频 -->
+    <string name="icon_video" translatable="false">&#xe695;</string>
+    <!-- 视频_空 -->
+    <string name="icon_video_empty" translatable="false">&#xe71f;</string>
+
+    <!-- 语音 -->
+    <string name="icon_voice" translatable="false">&#xe787;</string>
+    <!-- 语音 -->
+    <string name="icon_voice_mute" translatable="false">&#xeb70;</string>
+
+    <!-- 切换 -->
+    <string name="icon_change" translatable="false">&#xe61e;</string>
+    <!-- 解绑 -->
+    <string name="icon_unbinding" translatable="false">&#xe6c2;</string>
+    <!-- 摄像头 -->
+    <string name="icon_monitor" translatable="false">&#xe61f;</string>
+    <!-- 云存储 -->
+    <string name="icon_storage" translatable="false">&#xe621;</string>
+
+
+</resources>

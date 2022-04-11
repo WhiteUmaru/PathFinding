@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grapefruit">#EF5362</color> <!-- Grapefruit -->
+    <color name="bittersweet">#FE6D4B</color> <!-- Bittersweet -->
+    <color name="sunflower">#FFCF47</color> <!-- Sunflower -->
+    <color name="grass">#9FD661</color> <!-- Grass -->
+    <color name="mint">#3FD0AD</color> <!-- Mint -->
+    <color name="aqua">#2BBDF3</color> <!-- Aqua -->
+    <color name="blue_jeans">#5A9AEF</color> <!-- Blue Jeans -->
+    <color name="lavender">#AC8FEF</color> <!-- Lavender -->
+    <color name="pink_rose">#EE85C1</color> <!-- Pink Rose -->
+    <color name="white">#FFFFFF</color> <!-- white -->
+    <!-- 半透明 -->
+    <color name="white_translucent">#90FFFFFF</color> <!-- white -->
+    <color name="line_color">#999999</color>
+
+    <color name="word">#333333</color> <!-- white -->
+    <color name="green">#20E026</color>
+    <color name="red">#ee191b</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="SwipeRevealLayout">
+        <attr name="dragEdge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+
+        <attr name="mode">
+            <enum name="normal" value="0" />
+            <enum name="same_level"   value="1" />
+        </attr>
+
+        <attr name="flingVelocity" format="integer" />
+
+        <attr name="minDistRequestDisallowParent" format="dimension" />
+    </declare-styleable>
+
+
+    <style name="title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:textColor">@color/word</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/title</item>
+    </style>
+
+
+    <style name="content">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textColor">@color/word</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:textSize">@dimen/title</item>
+    </style>
+
+
+    <style name="button">
+        <item name="android:textColor">@color/word</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/button</item>
+    </style>
+
+
+</resources>

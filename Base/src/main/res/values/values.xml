@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 大标题 -->
+    <dimen name="icon">28sp</dimen>
+    <dimen name="head_line">18sp</dimen>
+    <dimen name="title">16sp</dimen>
+    <dimen name="item">13sp</dimen>
+    <dimen name="button">14sp</dimen>
+    <!-- 间距 -->
+    <dimen name="spacing">12dp</dimen>
+</resources>

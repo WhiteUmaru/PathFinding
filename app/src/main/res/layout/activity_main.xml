@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- 计算 -->
+        <TextView
+            android:id="@+id/calculate"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            style="@style/button"
+            android:text="计算"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="50dp"
+            android:background="@drawable/calculate" />
+
+        <!-- 清除 -->
+        <TextView
+            android:id="@+id/clear"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            style="@style/button"
+            android:text="清除"
+            app:layout_constraintBottom_toTopOf="@id/calculate"
+            app:layout_constraintEnd_toEndOf="@+id/calculate"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/calculate" />
+
+        <!-- 清除路径 -->
+        <TextView
+            android:id="@+id/clear_path"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            style="@style/button"
+            android:text="清除路径"
+            app:layout_constraintBottom_toTopOf="@id/clear"
+            app:layout_constraintEnd_toEndOf="@+id/clear"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/calculate" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
