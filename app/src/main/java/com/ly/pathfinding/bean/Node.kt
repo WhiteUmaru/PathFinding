@@ -17,6 +17,7 @@ data class Node(
 ) {
     // 代价
     var cost = 0
+    var usedCost = 0
 
     // 前一个
     var previous: Node? = null

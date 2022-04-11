@@ -63,7 +63,8 @@ object PathFinding {
 
     private fun guessNode(root: Node, node: Node?, endNode: Node, queue: MutableList<Node>) {
         if (node != null && node.canThink()) {
-            node.cost = root.cost + 1 + calculateCost(node, endNode)
+            node.usedCost = root.usedCost + 1
+            node.cost = node.usedCost + calculateCost(node, endNode)
             node.setType(NodeType.THINK)
             node.previous = root
             queue.add(node)
