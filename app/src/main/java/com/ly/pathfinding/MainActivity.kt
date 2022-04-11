@@ -3,6 +3,8 @@ package com.ly.pathfinding
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.view.Window
+import android.view.WindowManager
 import androidx.recyclerview.widget.GridLayoutManager
 import com.ly.app.base.BaseActivity
 import com.ly.pathfinding.adapter.NodeAdapter
@@ -14,6 +16,11 @@ import com.ly.pathfinding.databinding.ActivityMainBinding
 class MainActivity : BaseActivity<ActivityMainBinding>() {
 
     private val adapter = NodeAdapter()
+    override fun onCreate(savedInstanceState: Bundle?) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE)
+        super.onCreate(savedInstanceState)
+        window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+    }
     override fun onCreateView(bundle: Bundle?) {
         mBinding.list.layoutManager = GridLayoutManager(this, 10, GridLayoutManager.HORIZONTAL, false)
         mBinding.list.adapter = adapter
@@ -23,9 +30,9 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
                 if (it.type == NodeType.THINKED || it.type == NodeType.THINK || it.type == NodeType.PATH) {
                     it.type = NodeType.NONE
                     it.cost = 0
+                    adapter.notifyItemChanged(it.position)
                 }
             }
-            adapter.notifyDataSetChanged()
         }
         mBinding.calculate.setOnClickListener {
             val startNode = adapter.getData().find { it.type == NodeType.START } ?: return@setOnClickListener
