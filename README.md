@@ -4,4 +4,4 @@
 
 成果
 
-![](https://raw.githubusercontent.com/WhiteUmaru/PathFinding/master/images/demo.jpeg)
+![](https://raw.githubusercontent.com/WhiteUmaru/PathFinding/master/images/demo.png)
